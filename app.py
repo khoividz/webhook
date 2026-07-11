@@ -10,7 +10,7 @@ from datetime import datetime
 
 # ================== CẤU HÌNH ==================
 PAGE_ACCESS_TOKEN = os.environ.get("PAGE_ACCESS_TOKEN", "EAAOfqZCjfjccBR9P926VEJINb81KZAEdvgnsI3xmflPgwyuyGaCV1FGHvlcCZAJElxKnQoCA99L65WFE6QTljQwsgeo82gRbwbrQGziBE9fml1w3EQZAOddVgKyZC6obvMcSKpTZCY3kaIcLOMCdDaZB5w1e8qtihZAhspSIroblPYRSUpiJpUQEkpjSa7lerHTRhrJ2M0EGZAwZDZD")
-VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "khoividev")  # Tự đặt, phải khớp với Facebook
+VERIFY_TOKEN = "abc123" # Tự đặt, phải khớp với Facebook
 PORT = int(os.environ.get("PORT", 5000))
 
 app = Flask(__name__)
